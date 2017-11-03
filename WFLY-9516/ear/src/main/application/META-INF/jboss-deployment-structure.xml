@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure>
+	<ear-subdeployments-isolated>false</ear-subdeployments-isolated>
+
+  <deployment>
+     <dependencies>
+        <module name="javax.servlet.api" export="true" />
+        <module name="javax.servlet.jsp.api" />
+        <module name="javax.servlet.jstl.api" />
+        <module name="org.apache.commons.logging" export="true" />
+        <module name="org.apache.cxf" export="true"/>
+        <module name="org.apache.cxf.impl" export="true"/>
+
+        <module name="javax.annotation.api" export="true" />
+        <module name="javax.ejb.api" export="true" />
+        <module name="javax.jms.api" export="true" />
+        <module name="javax.jws.api" export="true" />
+        <module name="javax.persistence.api" export="true" />
+        <module name="javax.rmi.api" export="true" />
+        <module name="javax.transaction.api" export="true" />
+        <module name="javax.xml.bind.api" export="true" />
+        <module name="javax.xml.rpc.api" export="true" />
+        <module name="javax.xml.ws.api" export="true" />
+        <module name="org.jboss.logging" export="true" />
+        <module name="org.hibernate" export="true"/>
+
+<!--
+        <module name="deployment.common.ear.common.jar" export="true" />
+-->
+
+     </dependencies>
+  </deployment>
+
+
+</jboss-deployment-structure>
